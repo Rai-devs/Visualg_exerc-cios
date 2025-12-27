@@ -1,8 +1,8 @@
-Algoritmo "DoaÁıes pra um jogo"
+Algoritmo "Doa√ß√µes pra um jogo"
 // Professor   : Gustavo  Guanabara
-// DescriÁ„o   : DoaÁ„o
+// Descri√ß√£o   : Doa√ß√£o
 // Autor(a)    : Rai
-// Data atual  : 28/10/2025
+// Data atual  : 27/12/2025
 Var
    D : Inteiro
    Valor: real
@@ -68,15 +68,16 @@ Inicio
          FimSe
         LimpaTela
        Ate (Situation = "F")
-        Se (Answer = "Y") ent„o
+        Se (Answer = "Y") ent√£o
           Escreval("---------------------------------------------")
           Escreval(" Thank's for your help, ", Nome, "!"          )
           Escreval("                                             ")
           Escreval("                         L E A V I N G . . . ")
           Escreval("---------------------------------------------")
-        Sen„o
+        Sen√£o
           Escreval("---------------------------------------------")
           Escreval("                         L E A V I N G . . . ")
           Escreval("---------------------------------------------")
         FimSe
+
 Fimalgoritmo
